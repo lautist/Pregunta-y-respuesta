@@ -15,11 +15,6 @@ const preguntas = [
           respuesta: "Brasil",
         },
         {
-          pregunta: "¿En qué país se encuentra la Torre Eiffel?",
-          opciones: ["Italia", "Francia", "España", "Reino Unido"],
-           respuesta: "Francia",
-        },
-        {
           pregunta: "¿Qué país es conocido por el Taj Mahal?",
           opciones: ["India", "China", "Japón", "Corea del Sur"],
           respuesta: "India",
@@ -27,7 +22,7 @@ const preguntas = [
         {
           pregunta: "¿Cuál es el río más largo del mundo?",
           opciones: ["Nilo", "Amazonas", "Misisipi", "Yangtze"],
-          respuesta: "Amanzonas",
+          respuesta: "Amazonas",
         },
         {
           pregunta: "¿En qué continente se encuentra el Monte Kilimanjaro?",
@@ -75,11 +70,6 @@ const preguntas = [
           respuesta: "Canberra",
           },
           {
-          pregunta: "¿Qué es el Taj Mahal?",
-          opciones: ["Un palacio en España", "Un templo en Japón", "Una mezquita en Arabia Saudita", "Un mausoleo en India"],
-          respuesta: "Un mausoleo en India",
-          },
-          {
           pregunta: "¿En qué continente se encuentra la Gran Muralla China?",
           opciones: ["Asia", "América", "África", "Europa"],
           respuesta: "Asia",
@@ -93,7 +83,57 @@ const preguntas = [
           pregunta: "¿En qué año se fundó Facebook?",
           opciones: ["2002", "2004", "2006", "2008"],
           respuesta: "2004",
-          },
+          },  
+          {
+            pregunta: "¿Cuál es el océano más grande del mundo?",
+            opciones: ["Atlántico", "Índico", "Pacífico", "Ártico"],
+            respuesta: "Pacífico",
+            },
+            {
+            pregunta: "¿Cuál es el país más poblado del mundo?",
+            opciones: ["China", "India", "Estados Unidos", "Rusia"],
+            respuesta: "China",
+            },
+            {
+            pregunta: "¿Qué país es el más grande del mundo en términos de superficie?",
+            opciones: ["Rusia", "China", "Estados Unidos", "Canadá"],
+            respuesta: "Rusia",
+            },
+            {
+            pregunta: "¿Qué ciudad es conocida como la 'Ciudad de los Rascacielos'?",
+            opciones: ["Tokio", "Shanghái", "Dubái", "Nueva York"],
+            respuesta: "Nueva York",
+            },
+            {
+            pregunta: "¿Cuál es el país más pequeño del mundo?",
+            opciones: ["Mónaco", "Nauru", "Vaticano", "San Marino"],
+            respuesta: "Vaticano",
+            },
+            {
+            pregunta: "¿Cuál es el nombre de la galaxia en la que se encuentra nuestro sistema solar?",
+            opciones: ["Vía Láctea", "Andrómeda", "Sombrero", "Canis Major"],
+            respuesta: "Vía Láctea",
+            },
+            {
+            pregunta: "¿En qué país se encuentra la Gran Barrera de Coral?",
+            opciones: ["Australia", "Filipinas", "Indonesia", "Japón"],
+            respuesta: "Australia",
+            },
+            {
+            pregunta: "¿Quién es el autor de la obra 'Cien años de soledad'?",
+            opciones: ["Gabriel García Márquez", "Mario Vargas Llosa", "Isabel Allende", "Jorge Luis Borges"],
+            respuesta: "Gabriel García Márquez",
+            },
+            {
+            pregunta: "¿Qué país es conocido por la construcción de las Pirámides de Giza?",
+            opciones: ["Egipto", "México", "China", "India"],
+            respuesta: "Egipto",
+            },
+            {
+            pregunta: "¿En qué país se encuentra la estatua del Cristo Redentor?",
+            opciones: ["Brasil", "Argentina", "Perú", "Colombia"],
+            respuesta: "Brasil",
+            },
 ]
 
 let preguntasUtilizadas = [];
