@@ -140,6 +140,7 @@ let preguntasUtilizadas = [];
 
 let puntaje = 0;
 let contador = 0;
+let contadorMostrar = 1;
 
 function empezar() {
     let opciones = document.querySelector(".opci");
@@ -219,18 +220,20 @@ function empezar() {
       //SE COMPRUEBA Y SE PONE EL PUNTAJE DESPENDIENDO QUE PASO
       if (opcionSeleccionada.textContent === randomPregunta.respuesta) {
         puntaje++;
-        btnRpt.textContent = `Respuesta correcta`;
-        
+        btnRpt.innerHTML = `Respuesta correcta, Vas por la pregunta <span style="color: #b5b5ff">${contadorMostrar}/10</span>`;
         document.querySelector(".rpt-mostrar").style.display = "block";
         
         
       } else {
           
-          btnRpt.textContent = `Respuesta incorrecta, La respuesta correcta es ${randomPregunta.respuesta}`;
+        btnRpt.innerHTML = `Respuesta incorrecta, La respuesta correcta es <span style="color: #e15569">${randomPregunta.respuesta}</span>. Vas por la pregunta <span style="color: #b5b5ff">${contadorMostrar}/10</span>`;
+
           document.querySelector(".rpt-mostrar").style.display = "block";
           
       }
-        document.querySelector(".envR").style.display = "block";
+      
+
+          document.querySelector(".envR").style.display = "block";
       
   }
  
@@ -243,6 +246,7 @@ function siguientePregunta(){
   document.querySelector(".envR").style.display = "none"; 
   document.querySelector(".rpt-mostrar").style.display = "none"; 
   contador++;
+  contadorMostrar++;
 
   if(contador === 10){
     console.log("ya termino");

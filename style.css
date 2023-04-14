@@ -62,3 +62,7 @@
 .btn-start:hover{
     box-shadow: 0px 0px 15px black;
 }
+
+.puntaje-general{
+    font-size: 50px;
+}
