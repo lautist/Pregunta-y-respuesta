@@ -145,7 +145,7 @@ function empezar() {
         
         
       } else {
-          puntaje--;
+          
           btnRpt.textContent = `Respuesta incorrecta, La respuesta correcta es ${randomPregunta.respuesta}`;
           document.querySelector(".rpt-mostrar").style.display = "block";
           
