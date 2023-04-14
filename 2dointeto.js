@@ -54,6 +54,46 @@ const preguntas = [
           opciones: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"],
           respuesta: "Yuri Gagarin",
         },
+        {
+          pregunta: "¿Qué país tiene la forma de bota?",
+          opciones: ["España", "Italia", "Francia", "Alemania"],
+          respuesta: "Italia",
+          },
+          {
+          pregunta: "¿Quién pintó la obra 'La Gioconda'?",
+          opciones: ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Salvador Dalí"],
+          respuesta: "Leonardo da Vinci",
+          },
+          {
+          pregunta: "¿En qué país se encuentra la Torre Eiffel?",
+          opciones: ["Francia", "Italia", "España", "Alemania"],
+          respuesta: "Francia",
+          },
+          {
+          pregunta: "¿Cuál es la capital de Australia?",
+          opciones: ["Sydney", "Melbourne", "Brisbane", "Canberra"],
+          respuesta: "Canberra",
+          },
+          {
+          pregunta: "¿Qué es el Taj Mahal?",
+          opciones: ["Un palacio en España", "Un templo en Japón", "Una mezquita en Arabia Saudita", "Un mausoleo en India"],
+          respuesta: "Un mausoleo en India",
+          },
+          {
+          pregunta: "¿En qué continente se encuentra la Gran Muralla China?",
+          opciones: ["Asia", "América", "África", "Europa"],
+          respuesta: "Asia",
+          },
+          {
+          pregunta: "¿Quién escribió la obra 'Don Quijote de la Mancha'?",
+          opciones: ["Miguel de Cervantes", "William Shakespeare", "Friedrich Nietzsche", "George Orwell"],
+          respuesta: "Miguel de Cervantes",
+          },
+          {
+          pregunta: "¿En qué año se fundó Facebook?",
+          opciones: ["2002", "2004", "2006", "2008"],
+          respuesta: "2004",
+          },
 ]
 
 let preguntasUtilizadas = [];
