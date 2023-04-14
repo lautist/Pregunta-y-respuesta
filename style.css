@@ -2,24 +2,63 @@
     background: #363535;
     color: white;
     text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
 
 .opci button{
     margin: 10px;
-    padding: 15px;
-    background: rgb(110, 81, 81);
+    padding: 20px 50px;
+    background: #342e4d;
     border: none;
+    font-size: 20px;
     border-radius: 10px;
 }
 
 .opci button:hover{
-    background: rgb(148, 108, 108);
+    background: #62568f;
+    transition: 0.7s;
+    box-shadow: 0px 0px 5px #62568f;
+    cursor: pointer;
 }
 
-.opci button:focus{
-    background: rgb(148, 108, 108);
+
+.pregunta{
+    background-color: #292828;
+    margin: 70px;
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+    transition: 1s;
 }
 
 .rpt-mostrar{
+    font-size: 25px;
+}
+.btn-sg{
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #292828;
+}
+
+.btn-sg:hover{
+
+    transition: 0.7s;
+    box-shadow: 0px 0px 15px #292828;
+}
+
+.btn-start{
+    padding: 25px;
     font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
+.btn-start:hover{
+    box-shadow: 0px 0px 15px black;
 }

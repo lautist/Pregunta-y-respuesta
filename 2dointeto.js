@@ -27,7 +27,7 @@ const preguntas = [
         {
           pregunta: "¿Cuál es el río más largo del mundo?",
           opciones: ["Nilo", "Amazonas", "Misisipi", "Yangtze"],
-          respuesta: "Nilo",
+          respuesta: "Amanzonas",
         },
         {
           pregunta: "¿En qué continente se encuentra el Monte Kilimanjaro?",
@@ -40,19 +40,19 @@ const preguntas = [
           respuesta: "Vincent van Gogh",
         },
         {
-        pregunta: "¿En qué año se llevó a cabo la Revolución Francesa?",
-        opciones: ["1789", "1799", "1809", "1819"],
-        respuesta: "1789",
+          pregunta: "¿En qué año se llevó a cabo la Revolución Francesa?",
+          opciones: ["1789", "1799", "1809", "1819"],
+          respuesta: "1789",
         },
         {
-        pregunta:`¿Quién escribió la obra "El principito"?`,
-        opciones: ["Friedrich Nietzsche", "Jules Verne", "Antoine de Saint-Exupéry", "Gabriel García Márquez"],
-        respuesta: "Antoine de Saint-Exupéry",
+          pregunta:`¿Quién escribió la obra "El principito"?`,
+          opciones: ["Friedrich Nietzsche", "Jules Verne", "Antoine de Saint-Exupéry", "Gabriel García Márquez"],
+          respuesta: "Antoine de Saint-Exupéry",
         },
         {
-        pregunta: `¿Quién fue el primer ser humano en llegar al espacio exterior?`,
-        opciones: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"],
-        respuesta: "Yuri Gagarin",
+          pregunta: `¿Quién fue el primer ser humano en llegar al espacio exterior?`,
+          opciones: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"],
+          respuesta: "Yuri Gagarin",
         },
 ]
 
@@ -62,10 +62,6 @@ let puntaje = 0;
 let contador = 0;
 
 function empezar() {
-  
-  console.log(contador);
-  console.log(puntaje);
-
     let opciones = document.querySelector(".opci");
 
     // GENERAMOS LA PREGUNTA RANDOM Y COMPROBAMOS SI YA LE HEMOS ECHO EN CASO DE HACERLA SE BORRA SI NO SE MUESTRA
@@ -114,25 +110,39 @@ function empezar() {
     preguntaH1.textContent = randomPregunta.pregunta;
     btnStart.style.display = "none";
     console.log(randomPregunta);
-    //SE COMPRUEBA LA LA REPUESTA QUE APRETO EL USUARIO
-    opcion0.addEventListener("click", function() { comprobarRespuesta(opcion0); });
-    opcion1.addEventListener("click", function() { comprobarRespuesta(opcion1); });
-    opcion2.addEventListener("click", function() { comprobarRespuesta(opcion2); });
-    opcion3.addEventListener("click", function() { comprobarRespuesta(opcion3); });
+    //SE COMPRUEBA LA LA REPUESTA QUE APRETO EL USUARIO, Y SE AGREGA COLOR A LA REPUESTA QUE SELECCIONO
+    opcion0.addEventListener("click", function() { 
+      comprobarRespuesta(opcion0); 
+      opcion0.style.background = "#62568f";
+    });
+    opcion1.addEventListener("click", function() { 
+      comprobarRespuesta(opcion1); 
+      opcion1.style.background = "#62568f";
+    });
+    opcion2.addEventListener("click", function() { 
+      comprobarRespuesta(opcion2);
+      opcion2.style.background = "#62568f";
+    });
+    opcion3.addEventListener("click", function() {
+       comprobarRespuesta(opcion3); 
+       opcion3.style.background = "#62568f";
+      });
 
     function comprobarRespuesta(opcionSeleccionada) {
       let btnRpt = document.querySelector(".rpt-mostrar")
-    
       opcion0.disabled = true;
       opcion1.disabled = true;
       opcion2.disabled = true;
-      opcion3.disabled = true;
+      opcion3.disabled = true; 
+      
       
       //SE COMPRUEBA Y SE PONE EL PUNTAJE DESPENDIENDO QUE PASO
       if (opcionSeleccionada.textContent === randomPregunta.respuesta) {
         puntaje++;
         btnRpt.textContent = `Respuesta correcta`;
+        
         document.querySelector(".rpt-mostrar").style.display = "block";
+        
         
       } else {
           puntaje--;
