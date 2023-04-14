@@ -1,0 +1,25 @@
+*{
+    background: #363535;
+    color: white;
+    text-align: center;
+}
+
+.opci button{
+    margin: 10px;
+    padding: 15px;
+    background: rgb(110, 81, 81);
+    border: none;
+    border-radius: 10px;
+}
+
+.opci button:hover{
+    background: rgb(148, 108, 108);
+}
+
+.opci button:focus{
+    background: rgb(148, 108, 108);
+}
+
+.rpt-mostrar{
+    font-size: 20px;
+}
