@@ -3,7 +3,54 @@ let btnStart = document.querySelector(".btn-start");
 let btnSiguiente = document.querySelector(".btn-sg");
 document.querySelector(".envR").style.display = "none";
 
+
+
 const preguntas = [
+        {
+          pregunta: "¿Cuál es el país más grande del mundo en términos de superficie?",
+          opciones: ["Canadá", "China", "Estados Unidos", "Rusia"],
+          respuesta: "Rusia"
+        },
+        {
+          pregunta: "¿Qué ciudad europea es conocida como la 'ciudad eterna'?",
+          opciones: ["Barcelona", "Roma", "París", "Londres"],
+          respuesta: "Roma"
+        },
+        {
+          pregunta: "¿Quién pintó el cuadro 'La persistencia de la memoria'?",
+          opciones: ["Pablo Picasso", "Salvador Dalí", "Vincent van Gogh", "Leonardo da Vinci"],
+          respuesta: "Salvador Dalí"
+        },
+        {
+          pregunta: "¿Cuál es la montaña más alta del mundo?",
+          opciones: ["Everest", "K2", "Monte Fuji", "Mont Blanc"],
+          respuesta: "Everest"
+        },
+        {
+          pregunta: "¿En qué año comenzó la Segunda Guerra Mundial?",
+          opciones: ["1939", "1941", "1945", "1948"],
+          respuesta: "1939"
+        },
+        {
+          pregunta: "¿Quién escribió la novela 'El gran Gatsby'?",
+          opciones: ["Ernest Hemingway", "F. Scott Fitzgerald", "John Steinbeck", "Mark Twain"],
+          respuesta: "F. Scott Fitzgerald"
+        },
+        {
+          pregunta: "¿Qué país africano es el más poblado?",
+          opciones: ["Etiopía", "Nigeria", "Sudáfrica", "Congo"],
+          respuesta: "Nigeria"
+        },
+        {
+          pregunta: "¿Cuál es el planeta más cercano al sol?",
+          opciones: ["Venus", "Mercurio", "Marte", "Júpiter"],
+          respuesta: "Mercurio"
+        },
+        {
+          pregunta: "¿Qué país es conocido como la 'Tierra del Sol Naciente'?",
+          opciones: ["Japón", "Corea del Sur", "China", "Vietnam"],
+          respuesta: "Japón"
+        },
         {
           pregunta: "¿En qué continente se encuentra la selva amazónica?",
           opciones: ["Asia", "América", "África", "Europa"],
@@ -50,90 +97,90 @@ const preguntas = [
           respuesta: "Yuri Gagarin",
         },
         {
-          pregunta: "¿Qué país tiene la forma de bota?",
-          opciones: ["España", "Italia", "Francia", "Alemania"],
-          respuesta: "Italia",
-          },
-          {
-          pregunta: "¿Quién pintó la obra 'La Gioconda'?",
-          opciones: ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Salvador Dalí"],
-          respuesta: "Leonardo da Vinci",
-          },
-          {
-          pregunta: "¿En qué país se encuentra la Torre Eiffel?",
-          opciones: ["Francia", "Italia", "España", "Alemania"],
-          respuesta: "Francia",
-          },
-          {
-          pregunta: "¿Cuál es la capital de Australia?",
-          opciones: ["Sydney", "Melbourne", "Brisbane", "Canberra"],
-          respuesta: "Canberra",
-          },
-          {
-          pregunta: "¿En qué continente se encuentra la Gran Muralla China?",
-          opciones: ["Asia", "América", "África", "Europa"],
-          respuesta: "Asia",
-          },
-          {
-          pregunta: "¿Quién escribió la obra 'Don Quijote de la Mancha'?",
-          opciones: ["Miguel de Cervantes", "William Shakespeare", "Friedrich Nietzsche", "George Orwell"],
-          respuesta: "Miguel de Cervantes",
-          },
-          {
-          pregunta: "¿En qué año se fundó Facebook?",
-          opciones: ["2002", "2004", "2006", "2008"],
-          respuesta: "2004",
-          },  
-          {
-            pregunta: "¿Cuál es el océano más grande del mundo?",
-            opciones: ["Atlántico", "Índico", "Pacífico", "Ártico"],
-            respuesta: "Pacífico",
-            },
-            {
-            pregunta: "¿Cuál es el país más poblado del mundo?",
-            opciones: ["China", "India", "Estados Unidos", "Rusia"],
-            respuesta: "China",
-            },
-            {
-            pregunta: "¿Qué país es el más grande del mundo en términos de superficie?",
-            opciones: ["Rusia", "China", "Estados Unidos", "Canadá"],
-            respuesta: "Rusia",
-            },
-            {
-            pregunta: "¿Qué ciudad es conocida como la 'Ciudad de los Rascacielos'?",
-            opciones: ["Tokio", "Shanghái", "Dubái", "Nueva York"],
-            respuesta: "Nueva York",
-            },
-            {
-            pregunta: "¿Cuál es el país más pequeño del mundo?",
-            opciones: ["Mónaco", "Nauru", "Vaticano", "San Marino"],
-            respuesta: "Vaticano",
-            },
-            {
-            pregunta: "¿Cuál es el nombre de la galaxia en la que se encuentra nuestro sistema solar?",
-            opciones: ["Vía Láctea", "Andrómeda", "Sombrero", "Canis Major"],
-            respuesta: "Vía Láctea",
-            },
-            {
-            pregunta: "¿En qué país se encuentra la Gran Barrera de Coral?",
-            opciones: ["Australia", "Filipinas", "Indonesia", "Japón"],
-            respuesta: "Australia",
-            },
-            {
-            pregunta: "¿Quién es el autor de la obra 'Cien años de soledad'?",
-            opciones: ["Gabriel García Márquez", "Mario Vargas Llosa", "Isabel Allende", "Jorge Luis Borges"],
-            respuesta: "Gabriel García Márquez",
-            },
-            {
-            pregunta: "¿Qué país es conocido por la construcción de las Pirámides de Giza?",
-            opciones: ["Egipto", "México", "China", "India"],
-            respuesta: "Egipto",
-            },
-            {
-            pregunta: "¿En qué país se encuentra la estatua del Cristo Redentor?",
-            opciones: ["Brasil", "Argentina", "Perú", "Colombia"],
-            respuesta: "Brasil",
-            },
+        pregunta: "¿Qué país tiene la forma de bota?",
+        opciones: ["España", "Italia", "Francia", "Alemania"],
+        respuesta: "Italia",
+        },
+        {
+        pregunta: "¿Quién pintó la obra 'La Gioconda'?",
+        opciones: ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Salvador Dalí"],
+        respuesta: "Leonardo da Vinci",
+        },
+        {
+        pregunta: "¿En qué país se encuentra la Torre Eiffel?",
+        opciones: ["Francia", "Italia", "España", "Alemania"],
+        respuesta: "Francia",
+        },
+        {
+        pregunta: "¿Cuál es la capital de Australia?",
+        opciones: ["Sydney", "Melbourne", "Brisbane", "Canberra"],
+        respuesta: "Canberra",
+        },
+        {
+        pregunta: "¿En qué continente se encuentra la Gran Muralla China?",
+        opciones: ["Asia", "América", "África", "Europa"],
+        respuesta: "Asia",
+        },
+        {
+        pregunta: "¿Quién escribió la obra 'Don Quijote de la Mancha'?",
+        opciones: ["Miguel de Cervantes", "William Shakespeare", "Friedrich Nietzsche", "George Orwell"],
+        respuesta: "Miguel de Cervantes",
+        },
+        {
+        pregunta: "¿En qué año se fundó Facebook?",
+        opciones: ["2002", "2004", "2006", "2008"],
+        respuesta: "2004"
+        },  
+        {
+        pregunta: "¿Cuál es el océano más grande del mundo?",
+        opciones: ["Atlántico", "Índico", "Pacífico", "Ártico"],
+        respuesta: "Pacífico",
+        },
+        {
+        pregunta: "¿Cuál es el país más poblado del mundo?",
+        opciones: ["China", "India", "Estados Unidos", "Rusia"],
+        respuesta: "China",
+        },
+        {
+        pregunta: "¿Qué país es el más grande del mundo en términos de superficie?",
+        opciones: ["Rusia", "China", "Estados Unidos", "Canadá"],
+        respuesta: "Rusia",
+        },
+        {
+        pregunta: "¿Qué ciudad es conocida como la 'Ciudad de los Rascacielos'?",
+        opciones: ["Tokio", "Shanghái", "Dubái", "Nueva York"],
+        respuesta: "Nueva York",
+        },
+        {
+        pregunta: "¿Cuál es el país más pequeño del mundo?",
+        opciones: ["Mónaco", "Nauru", "Vaticano", "San Marino"],
+        respuesta: "Vaticano",
+        },
+        {
+        pregunta: "¿Cuál es el nombre de la galaxia en la que se encuentra nuestro sistema solar?",
+        opciones: ["Vía Láctea", "Andrómeda", "Sombrero", "Canis Major"],
+        respuesta: "Vía Láctea",
+        },
+        {
+        pregunta: "¿En qué país se encuentra la Gran Barrera de Coral?",
+        opciones: ["Australia", "Filipinas", "Indonesia", "Japón"],
+        respuesta: "Australia",
+        },
+        {
+        pregunta: "¿Quién es el autor de la obra 'Cien años de soledad'?",
+        opciones: ["Gabriel García Márquez", "Mario Vargas Llosa", "Isabel Allende", "Jorge LuiBorges"],
+        respuesta: "Gabriel García Márquez",
+        },
+        {
+        pregunta: "¿Qué país es conocido por la construcción de las Pirámides de Giza?",
+        opciones: ["Egipto", "México", "China", "India"],
+        respuesta: "Egipto",
+        },
+        {
+        pregunta: "¿En qué país se encuentra la estatua del Cristo Redentor?",
+        opciones: ["Brasil", "Argentina", "Perú", "Colombia"],
+        respuesta: "Brasil",
+        },
 ]
 
 let preguntasUtilizadas = [];
@@ -252,10 +299,12 @@ function siguientePregunta(){
     console.log("ya termino");
     document.querySelector(".rpt-mostrar").style.display = "none";
     document.querySelector(".opci").style.display = "none";
-    document.querySelector(".puntaje-general").textContent = puntaje * 10;
+    document.querySelector(".puntaje-general").innerHTML = `Tu puntaje final es <span style="color: #b5b5ff">${puntaje * 10}</span>`;
     document.querySelector(".pregunta").textContent = `Finalizado`;
   }else{
     empezar();
   }  
 } 
+
+
 
