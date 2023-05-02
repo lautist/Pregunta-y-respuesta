@@ -97,89 +97,89 @@ const preguntas = [
           respuesta: "Yuri Gagarin",
         },
         {
-        pregunta: "¿Qué país tiene la forma de bota?",
-        opciones: ["España", "Italia", "Francia", "Alemania"],
-        respuesta: "Italia",
+          pregunta: "¿Qué país tiene la forma de bota?",
+          opciones: ["España", "Italia", "Francia", "Alemania"],
+          respuesta: "Italia",
         },
         {
-        pregunta: "¿Quién pintó la obra 'La Gioconda'?",
-        opciones: ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Salvador Dalí"],
-        respuesta: "Leonardo da Vinci",
+          pregunta: "¿Quién pintó la obra 'La Gioconda'?",
+          opciones: ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Salvador Dalí"],
+          respuesta: "Leonardo da Vinci",
         },
         {
-        pregunta: "¿En qué país se encuentra la Torre Eiffel?",
-        opciones: ["Francia", "Italia", "España", "Alemania"],
-        respuesta: "Francia",
+          pregunta: "¿En qué país se encuentra la Torre Eiffel?",
+          opciones: ["Francia", "Italia", "España", "Alemania"],
+          respuesta: "Francia",
         },
         {
-        pregunta: "¿Cuál es la capital de Australia?",
-        opciones: ["Sydney", "Melbourne", "Brisbane", "Canberra"],
-        respuesta: "Canberra",
+          pregunta: "¿Cuál es la capital de Australia?",
+          opciones: ["Sydney", "Melbourne", "Brisbane", "Canberra"],
+          respuesta: "Canberra",
         },
         {
-        pregunta: "¿En qué continente se encuentra la Gran Muralla China?",
-        opciones: ["Asia", "América", "África", "Europa"],
-        respuesta: "Asia",
+          pregunta: "¿En qué continente se encuentra la Gran Muralla China?",
+          opciones: ["Asia", "América", "África", "Europa"],
+          respuesta: "Asia",
         },
         {
-        pregunta: "¿Quién escribió la obra 'Don Quijote de la Mancha'?",
-        opciones: ["Miguel de Cervantes", "William Shakespeare", "Friedrich Nietzsche", "George Orwell"],
-        respuesta: "Miguel de Cervantes",
+          pregunta: "¿Quién escribió la obra 'Don Quijote de la Mancha'?",
+          opciones: ["Miguel de Cervantes", "William Shakespeare", "Friedrich Nietzsche", "George Orwell"],
+          respuesta: "Miguel de Cervantes",
         },
         {
-        pregunta: "¿En qué año se fundó Facebook?",
-        opciones: ["2002", "2004", "2006", "2008"],
-        respuesta: "2004"
+          pregunta: "¿En qué año se fundó Facebook?",
+          opciones: ["2002", "2004", "2006", "2008"],
+          respuesta: "2004"
         },  
         {
-        pregunta: "¿Cuál es el océano más grande del mundo?",
-        opciones: ["Atlántico", "Índico", "Pacífico", "Ártico"],
-        respuesta: "Pacífico",
+          pregunta: "¿Cuál es el océano más grande del mundo?",
+          opciones: ["Atlántico", "Índico", "Pacífico", "Ártico"],
+          respuesta: "Pacífico",
         },
         {
-        pregunta: "¿Cuál es el país más poblado del mundo?",
-        opciones: ["China", "India", "Estados Unidos", "Rusia"],
-        respuesta: "China",
+          pregunta: "¿Cuál es el país más poblado del mundo?",
+          opciones: ["China", "India", "Estados Unidos", "Rusia"],
+          respuesta: "China",
         },
         {
-        pregunta: "¿Qué país es el más grande del mundo en términos de superficie?",
-        opciones: ["Rusia", "China", "Estados Unidos", "Canadá"],
-        respuesta: "Rusia",
+          pregunta: "¿Qué país es el más grande del mundo en términos de superficie?",
+          opciones: ["Rusia", "China", "Estados Unidos", "Canadá"],
+          respuesta: "Rusia",
         },
         {
-        pregunta: "¿Qué ciudad es conocida como la 'Ciudad de los Rascacielos'?",
-        opciones: ["Tokio", "Shanghái", "Dubái", "Nueva York"],
-        respuesta: "Nueva York",
+          pregunta: "¿Qué ciudad es conocida como la 'Ciudad de los Rascacielos'?",
+          opciones: ["Tokio", "Shanghái", "Dubái", "Nueva York"],
+          respuesta: "Nueva York",
         },
         {
-        pregunta: "¿Cuál es el país más pequeño del mundo?",
-        opciones: ["Mónaco", "Nauru", "Vaticano", "San Marino"],
-        respuesta: "Vaticano",
+          pregunta: "¿Cuál es el país más pequeño del mundo?",
+          opciones: ["Mónaco", "Nauru", "Vaticano", "San Marino"],
+          respuesta: "Vaticano",
         },
         {
-        pregunta: "¿Cuál es el nombre de la galaxia en la que se encuentra nuestro sistema solar?",
-        opciones: ["Vía Láctea", "Andrómeda", "Sombrero", "Canis Major"],
-        respuesta: "Vía Láctea",
+          pregunta: "¿Cuál es el nombre de la galaxia en la que se encuentra nuestro sistema solar?",
+          opciones: ["Vía Láctea", "Andrómeda", "Sombrero", "Canis Major"],
+          respuesta: "Vía Láctea",
         },
         {
-        pregunta: "¿En qué país se encuentra la Gran Barrera de Coral?",
-        opciones: ["Australia", "Filipinas", "Indonesia", "Japón"],
-        respuesta: "Australia",
+          pregunta: "¿En qué país se encuentra la Gran Barrera de Coral?",
+          opciones: ["Australia", "Filipinas", "Indonesia", "Japón"],
+          respuesta: "Australia",
         },
         {
-        pregunta: "¿Quién es el autor de la obra 'Cien años de soledad'?",
-        opciones: ["Gabriel García Márquez", "Mario Vargas Llosa", "Isabel Allende", "Jorge LuiBorges"],
-        respuesta: "Gabriel García Márquez",
+          pregunta: "¿Quién es el autor de la obra 'Cien años de soledad'?",
+          opciones: ["Gabriel García Márquez", "Mario Vargas Llosa", "Isabel Allende", "Jorge LuiBorges"],
+          respuesta: "Gabriel García Márquez",
         },
         {
-        pregunta: "¿Qué país es conocido por la construcción de las Pirámides de Giza?",
-        opciones: ["Egipto", "México", "China", "India"],
-        respuesta: "Egipto",
+          pregunta: "¿Qué país es conocido por la construcción de las Pirámides de Giza?",
+          opciones: ["Egipto", "México", "China", "India"],
+          respuesta: "Egipto",
         },
         {
-        pregunta: "¿En qué país se encuentra la estatua del Cristo Redentor?",
-        opciones: ["Brasil", "Argentina", "Perú", "Colombia"],
-        respuesta: "Brasil",
+          pregunta: "¿En qué país se encuentra la estatua del Cristo Redentor?",
+          opciones: ["Brasil", "Argentina", "Perú", "Colombia"],
+          respuesta: "Brasil",
         },
 ]
 
@@ -258,6 +258,7 @@ function empezar() {
 
     function comprobarRespuesta(opcionSeleccionada) {
       let btnRpt = document.querySelector(".rpt-mostrar")
+      //DESABILITAMOS LAS OPCIONES PARA QUE NO PUEDA CAMBIAR LA OPCION
       opcion0.disabled = true;
       opcion1.disabled = true;
       opcion2.disabled = true;
@@ -265,15 +266,16 @@ function empezar() {
       
       
       //SE COMPRUEBA Y SE PONE EL PUNTAJE DESPENDIENDO QUE PASO
+      // SI ES CORRECTO
       if (opcionSeleccionada.textContent === randomPregunta.respuesta) {
         puntaje++;
-        btnRpt.innerHTML = `Respuesta correcta, Vas por la pregunta <span style="color: #b5b5ff">${contadorMostrar}/10</span>`;
+        btnRpt.innerHTML = `Respuesta correcta, Vas por la pregunta <span style="color: #b5b5ff">${contadorMostrar}/10.</span>`;
         document.querySelector(".rpt-mostrar").style.display = "block";
         
         
       } else {
-          
-        btnRpt.innerHTML = `Respuesta incorrecta, La respuesta correcta es <span style="color: #e15569">${randomPregunta.respuesta}</span>. Vas por la pregunta <span style="color: #b5b5ff">${contadorMostrar}/10</span>`;
+          // SI ES INCORRECTA
+        btnRpt.innerHTML = `Respuesta incorrecta, La respuesta correcta es <span style="color: #e15569">${randomPregunta.respuesta}</span>. Vas por la pregunta <span style="color: #b5b5ff">${contadorMostrar}/10.</span>`;
 
           document.querySelector(".rpt-mostrar").style.display = "block";
           
@@ -302,6 +304,7 @@ function siguientePregunta(){
     document.querySelector(".puntaje-general").innerHTML = `Tu puntaje final es <span style="color: #b5b5ff">${puntaje * 10}</span>`;
     document.querySelector(".pregunta").textContent = `Finalizado`;
   }else{
+    // EN CASO DE QUE FALTE TODAVIA PARA LLEGAR A 10 SE EJECUTA DE VUELTA EL CODIGO
     empezar();
   }  
 } 
